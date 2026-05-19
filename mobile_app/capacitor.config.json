@@ -1,0 +1,20 @@
+{
+  "appId": "com.hajjma.mobile",
+  "appName": "Hajjma",
+  "webDir": "www",
+  "server": {
+    "url": "https://hajjma.onrender.com/",
+    "cleartext": false,
+    "androidScheme": "https",
+    "allowNavigation": [
+      "hajjma.onrender.com",
+      "*.hajjma.onrender.com"
+    ]
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false,
+    "backgroundColor": "#0f4d3a"
+  }
+}
